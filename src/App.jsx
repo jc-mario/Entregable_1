@@ -1,7 +1,8 @@
+import { useState } from 'react';
 import QuotesBox from './Components/QuotesBox';
 import quotes from './Components/quotes.json';
 import './styles.css';
-import { useState } from 'react';
+
 
 const arrayColor = [
   "#2284DF", "#5258E3", "#7BF574", "#986B4B", "#78E905", "#789D7C", "#6A040C", "#47C111", "#478B22", "#E95860"
