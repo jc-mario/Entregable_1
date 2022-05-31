@@ -1,0 +1,39 @@
+body {
+margin: 0;
+}
+
+.h2 {
+    margin: 0;
+    font-size: 35;
+}
+
+.p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box{
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 80%);
+    border-radius: 5%;
+    box-shadow: 5px, 5px, 5px, 0 rgb(18, 18, 18);
+}
+
+.button {
+    width: 40px;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    color: white;  
+    
+}
+
